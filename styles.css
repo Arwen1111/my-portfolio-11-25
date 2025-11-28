@@ -1,0 +1,60 @@
+#header, #home, #my-projects, #contact-me{
+    background-image: url("./images/background.jpeg");
+    padding-top: 10px;
+
+}
+
+
+#home h1{
+   font-family: "Ballet", cursive;
+   font-size: 205px;
+    font-weight: 400;
+    color: white;
+}
+
+#h2{
+color: white;
+ font-family: "Ramabhadra", sans-serif;
+ font-size: 50px;
+ padding-bottom: 15px;
+ padding-top: 5px;
+}
+
+p, h4,ul, h5{
+  font-family: "Bodoni Moda", serif;
+  
+  color: white;
+}
+
+body>*, .card{
+background-image: url("./images/wallpaper\,\ aesthetic.jpeg");
+}
+
+
+#contact-me img{
+  border-radius: 50%;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.card-img-top {
+    height: 150px;      /* o l’altezza che vuoi */
+    object-fit: cover;  /* mantiene le proporzioni */
+    object-position: center;
+    width: 100%;
+}
+
+
+
+@media (min-width: 600px) {
+    #home h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50vh;
+    }
+}
